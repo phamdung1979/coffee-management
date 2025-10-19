@@ -46,10 +46,6 @@ const handleRegister = (event) => {
         .catch((error) => {
             alert("Lỗi: " + error.message)
         });
-<<<<<<< HEAD
-}
-=======
 }
 
 registerForm.addEventListener('submit',handleRegister);
->>>>>>> c3bfb63698139586d6d894b266a41466c82a29c6
